@@ -3507,7 +3507,7 @@ body {
     margin: 0 0 1.3em
 }
 
-.page__content a:not(.btn):hover {
+.page__content a:not(.btn) {
     text-decoration: underline
 }
 
