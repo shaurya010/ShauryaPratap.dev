@@ -5075,7 +5075,9 @@ function(e) {
     i()
 }),
 function(e, c) {
-    var r, t = e.jQuery || e.Cowboy || (e.Cowboy = {});
+    var root = e || ("undefined" != typeof globalThis ? globalThis : ("undefined" != typeof window ? window : {})),
+        r,
+        t = root.jQuery || root.Cowboy || (root.Cowboy = {});
     t.throttle = r = function(o, i, a, s) {
         var l, u = 0;
         function e() {
