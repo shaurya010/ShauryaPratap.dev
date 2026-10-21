@@ -300,7 +300,7 @@ Resume <button class="btn"><i class="fa fa-download"></i> </button>   </a>|<a hr
 
 CV <button class="btn"><i class="fa fa-download"></i> </button></a></u>
           </h4>   -->
-<h2 id="Education"> EDUCATION </h2>
+<h2 id="Education" style="color: rgb(229, 145, 72);"> EDUCATION </h2>
 
 
 
@@ -327,7 +327,7 @@ B.Tech in Computer Science and Engineering. CGPA: 8.1</p>
 
 <!--Experience Start-->
 
-<h2 id="Experience"> EXPERIENCE </h2>
+<h2 id="Experience" style="color: rgb(229, 145, 72);"> EXPERIENCE </h2>
 <hr width="100%" color="black" size="4">
 
 
@@ -374,8 +374,6 @@ B.Tech in Computer Science and Engineering. CGPA: 8.1</p>
 
 <li>Studied foundational and advanced concepts in classical cryptography and post-quantum cryptography and <a href="https://arxiv.org/abs/2403.19299"> published </a> the outcome.</li>
     
-<li>Implemented various cryptographic algorithms using <b>C++</b> and <b>SageMath</b>, focusing on both security and efficiency.</li>
-    
 <li>Researched mathematical structures like the <b>Collatz(3x + 1) conjecture</b> for cryptographic applications.</li>
     
 <li>Designed and proposed a new hash function based on the 3x+1 conjecture called <a href="https://eprint.iacr.org/2025/1606"> Collatz Hash: Hash Algorithm Using 3x + 1 Conjecture </a> for PRNG, etc.</li>
@@ -405,7 +403,7 @@ B.Tech in Computer Science and Engineering. CGPA: 8.1</p>
 
 <!-- Open Source Contribution Start -->
 
-<h2 id="OSC">  OPEN SOURCE CONTRIBUTION </h2>
+<h2 id="OSC" style="color: rgb(229, 145, 72);">  OPEN SOURCE CONTRIBUTION </h2>
 <hr width="100%" color="black" size="4">
 
 
@@ -432,64 +430,32 @@ B.Tech in Computer Science and Engineering. CGPA: 8.1</p>
 
 <!--Projects start-->
 
-<h2 id="Projects">  PROJECTS </h2>
+<h2 id="Projects" style="color: rgb(229, 145, 72);">  PROJECTS </h2>
 <hr width="100%" color="black" size="4">
 
 <strong> <p style="text-align: center;"><u> Research Projects </u></p></strong> 
 
-    
 <p><strong><u>Collatz Hash: Hash Algorithm Using 3x + 1 Conjecture </u></strong>, <em>Feb-July 2024</em><br />
   <em>CAIR LAB, DRDO, India</em><br>
   GitHub: <a href="https://github.com/shaurya010/Collatz-Hash-Cryptographic-Hash-Algorithm-Using-Collatz-Conjecture" target="_blank">Click</a>  &nbsp;&nbsp; Research Paper:  <a href="https://eprint.iacr.org/2025/1606" target="_blank">Click</a> </p>
   <ul><ul>
 <li>Designed a new hash algorithm using the <i>Collatz Conjecture</i> with variable-length loops and message-dependent permutations for enhanced security.</li>
-<li> Ensures resistance against common attacks such as <i>length-extension, multicollision,</i> and <i>differential analysis</i> through nonlinear mixing and finalization steps.</li>
+<li>Ensures resistance against common attacks such as <i>length-extension, multicollision,</i> and <i>differential analysis</i> through nonlinear mixing and finalization steps.</li>
 <li>Provides strong <b>avalanche effect(≈ 55%)</b> and preimage resistance, producing fixed-length <b>256/384/512 bit</b> outputs suitable for password storage, PRNG, etc.</li>
   </ul></ul>
 
-    
 
-<p><strong><u>Lattice Reduction Using K-Means Algorithm </u></strong>, <em>July-Nov 2023</em><br />
-  <em>Computer Science Research Lab, PSIT, Kanpur, India</em><br>
-  GitHub: <a href="https://github.com/shaurya010/Attack-On-Shortest-Vector-Problem-of-Post-Quantum-Cryptography" target="_blank">Click</a>  &nbsp;&nbsp; Research Paper:  <a href="https://eudl.eu/doi/10.4108/eai.5-1-2024.2342526" target="_blank">Click</a> </p>
+<p><strong><u>Quantum-Safe Hybrid TLS Protocol</u></strong>, <em>Jan 2026-Present</em><br>
+  <em> Working under <a href="https://eecs.iisc.ac.in/people/sanjit-chatterjee/" target="_blank">Prof. Sanjit Chatterjee</a>, Indian Institute of Science (IISc) </p></em>
+  
   <ul><ul>
-    <li>Implemented <b>K-Means clustering algorithm</b> to optimize lattice structure by applying K-Means to identify and group
-      similar data points.</li>
-    <li>Applied K-Means model of machine learning on <b>2-dimension</b>, <b>4-dimension</b> lattice & accuracy is-<b>60%</b>, <b>46%</b>.</li>
-    <li>Conducted performance evaluations and benchmarking to quantify the improvements achieved through size reduction.</li>
-    <li>Ensured seamless integration of K-Means clustering with existing data processing pipelines for real-world applications.</li>
+    <li>Working on <strong>PSK-based TLS modes</strong>, mixing pre-shared keys into the key schedule to give quantum-resistant authentication and key establishment without relying on heavy post-quantum certificates and signatures.</li>
+    <li>Also exploring a <strong>Hybrid TLS 1.3 handshake</strong> that combines classical key exchange (ECDHE) with a post-quantum KEM and derives session keys from both, so the connection stays secure if either primitive is broken.</li>
+    <li>Building this for <strong>PowerGrid</strong> to protect critical power-infrastructure communication against <em>harvest-now, decrypt-later</em> attacks, with security analysis and implementation.</li>
   </ul></ul>
 
 
 
-
-<p><strong><u>Attack On Lattice(SVP), Using Machine Learning Algorithm</u></strong>, <em>Dec 2022-June 2023</em><br />
-  <em>Computer Science Research Lab, PSIT, Kanpur, India</em><br>
-GitHub: <a href="https://github.com/shaurya010/Attack-On-Shortest-Vector-Problem-of-Post-Quantum-Cryptography" target="_blank">Click</a> &nbsp;&nbsp; Research Paper_1:  <a href="https://link.springer.com/chapter/10.1007/978-981-97-1923-5_33" target="_blank">Click</a> &nbsp;&nbsp; Research Paper_2:  <a href="https://link.springer.com/article/10.1007/s42044-024-00184-x" target="_blank">Click</a></p>
-<ul><ul>
-  <li>There is a field <strong>Lattice Based Cryptography</strong> in Post-Quantum Cryptography and a problem of lattice-based cryptography is the Shortest Vector Problem which is defined as finding the shortest vector in an n-dimension lattice, we familiarised the model with the self-generated database of the lattice.</li>
-  <li>Applied <strong>KNN algorithm</strong> of machine learning is uses <strong>Euclidean Distance</strong>  on <strong>2-dimension</strong> lattice & accuracy is-<strong>74%</strong> , <strong>4-dimension</strong> lattice & accuracy is-<strong>67%</strong> ,<strong>10-dimension</strong> lattice & accuracy is-<strong>61% </strong>.
-</li>
-</ul></ul>
-
- <strong> <p style="text-align: center;"><u> Development Project </u></p></strong>
-
-<p><strong><u>CS 50, Final Project: Educational Website</u></strong>, <em>July–Dec 2022</em><br>
-<em>Harvard University</em>  <br>
-GitHub: <a href="https://github.com/shaurya010/Take_You_Online" target="_blank">Click</a></p>
-<ul><ul>
-  <li>Designed and implemented a  multi-page Website.</li>
-  <li>Tools used: HTML, CSS, Javascript, React, SQL, Google Translate API.</li>
-   <li>Website is <strong>Live:</strong><a href="https://shaurya010.github.io/Take_You_Online/" target="_blank">Click</a></li>
-</ul></ul>
-
-
-<!-- <p><strong><u>File-Compression System</u></strong>,<em> May 2021-Aug 2021  </em><br />
-GitHub: <a href="https://github.com/shaurya010/File-Compression" target="_blank">Click</a></p>
-<ul><ul>
-  <li>Uses <strong>huffman coding</strong> for file compression.</li>
-  <li>Uses C++ language for the file compression system.</li>
-</ul></ul> -->
 
 <!--Projects End-->
 
@@ -498,7 +464,7 @@ GitHub: <a href="https://github.com/shaurya010/File-Compression" target="_blank"
     
 <!--Technical Skills Start-->
 
-<h2 id="technical-skills"> TECHNICAL SKILLS </h2>
+<h2 id="technical-skills" style="color: rgb(229, 145, 72);"> TECHNICAL SKILLS </h2>
 <hr width="100%" color="black" size="4">
 
 <ul>
@@ -516,7 +482,7 @@ GitHub: <a href="https://github.com/shaurya010/File-Compression" target="_blank"
 
 <!--Coding Profile Start-->
 
-<h2 id="Coding profile">  CODING PROFILE </h2>
+<h2 id="Coding profile" style="color: rgb(229, 145, 72);">  CODING PROFILE </h2>
 <hr width="100%" color="black" size="4">
 
 <ul>
@@ -533,7 +499,7 @@ GitHub: <a href="https://github.com/shaurya010/File-Compression" target="_blank"
 
 <!--Professional activities Start-->
 
-<h2 id="professional-activities"> PROFESSIONAL ACTIVITIES </h2>
+<h2 id="professional-activities" style="color: rgb(229, 145, 72);"> PROFESSIONAL ACTIVITIES </h2>
 <hr width="100%" color="black" size="4">
 
 <ul>
@@ -573,7 +539,7 @@ GitHub: <a href="https://github.com/shaurya010/File-Compression" target="_blank"
 
 <!--Publications Start-->
 
-<h2 id="publications"> PUBLICATIONS </h2>
+<h2 id="publications" style="color: rgb(229, 145, 72);"> PUBLICATIONS </h2>
 <hr width="100%" color="black" size="4">
 
 

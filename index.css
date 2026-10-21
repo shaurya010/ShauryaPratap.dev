@@ -3490,6 +3490,13 @@ body {
     border-bottom: 1px solid #bfbfbf
 }
 
+.page__content .project-section-title {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+
 .page__content h1 .header-link,.page__content h2 .header-link,.page__content h3 .header-link,.page__content h4 .header-link,.page__content h5 .header-link,.page__content h6 .header-link {
     position: relative;
     left: 0.5em;
