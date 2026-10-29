@@ -5003,6 +5003,11 @@ html {
     margin-bottom: 0.75em !important;
 }
 
+#Shaurya .page__content .notice--info h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 #Shaurya .page__content .notice--info + h2 {
     margin-top: 0.5em;
 }
